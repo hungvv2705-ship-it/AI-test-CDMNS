@@ -1,0 +1,6 @@
+{
+  "name": "Sân Chơi Học Tập Cho Bé",
+  "description": "Bộ 8 trò chơi giáo dục tương tác cho trẻ mầm non từ 3-6 tuổi theo chuẩn Chương trình Giáo dục Mầm non Việt Nam, giúp bé học chữ cái, đếm số, nhận biết động vật, màu sắc, giao thông, kỹ năng sống và quản lý cảm xúc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fredoka", system-ui, -apple-system, sans-serif;
+  --font-display: "Fredoka", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom preschool style bubbly animations and sparkles */
+@keyframes bouncer {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(3deg); }
+}
+
+.animate-bouncer {
+  animation: bouncer 2s infinite ease-in-out;
+}
+
+.animate-wiggle {
+  animation: wiggle 0.3s infinite ease-in-out;
+}
+
+.animate-float {
+  animation: float 4s infinite ease-in-out;
+}
+
+/* Child safety, smooth scroll, high-contrast focus rings */
+body {
+  background-color: #f0fdf4; /* Gentle pastel green default */
+  color: #1e293b;
+  overflow-x: hidden;
+  font-family: "Fredoka", system-ui, -apple-system, sans-serif;
+}
+
+/* Beautiful custom thumb/drag scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
